@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>URL Shortener</title>
+    <link rel="stylesheet" href="style.css" />
+    <meta
+      http-equiv="Cache-Control"
+      content="no-cache, no-store, must-revalidate"
+    />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+  </head>
+  <body>
+    <h1>URL Shortener</h1>
+    <input type="text" id="longUrl" placeholder="Enter your long URL" />
+    <input
+      type="text"
+      id="customCode"
+      placeholder="(Optional) Custom short code"
+    />
+    <button onclick="shortenUrl()">Shorten</button>
+    <p id="shortUrl"></p>
+    <h2>Analytics</h2>
+    <button onclick="fetchAnalytics()">Load Analytics</button>
+    <table id="analyticsTable">
+      <tr>
+        <th>Short URL</th>
+        <th>Long URL</th>
+        <th>Clicks</th>
+      </tr>
+    </table>
+
+    <script src="script.js"></script>
+  </body>
+</html>

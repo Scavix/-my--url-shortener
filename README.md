@@ -44,7 +44,7 @@ netlify dev
 ```
 Then open **http://localhost:8888** in your browser.
 
-## 🌍 Deployment
+## Deployment
 ### Deploy to **Netlify**
 1. Push your project to GitHub.
 2. Go to [Netlify](https://www.netlify.com/) and create a new site.
@@ -55,7 +55,7 @@ Then open **http://localhost:8888** in your browser.
 vercel
 ```
 
-## 📜 License
+## License
 This project is open-source and available under the **MIT License**.
 
 ---
